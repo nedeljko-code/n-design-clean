@@ -319,7 +319,7 @@ export default function Home() {
               </div>
             </div>
           }
-          trigger={triggerArchitectureAnimation}
+          
           rightContent={
             <div className="relative w-full h-full bg-black text-white font-montserrat overflow-hidden ">
               {/* Tiny vertical lines */}
@@ -359,7 +359,7 @@ export default function Home() {
           id="contact"
           customLayout={true}
           refProp={contactSectionRef}
-          trigger={triggerContactAnimation}
+          
           height="h-auto"
           leftContent={
             <div className="relative w-[30%] bg-black flex items-center justify-center overflow-hidden">
