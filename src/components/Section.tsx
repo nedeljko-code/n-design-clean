@@ -5,7 +5,6 @@ import React, { ReactNode, RefObject } from 'react'
 interface SectionProps {
   id: string
   refProp?: RefObject<HTMLDivElement | null>
-  trigger?: boolean
   customLayout?: boolean
   leftContent?: ReactNode
   rightContent?: ReactNode
@@ -15,7 +14,6 @@ interface SectionProps {
 export default function Section({
   id,
   refProp,
-  _trigger = true,
   customLayout = false,
   leftContent,
   rightContent,
