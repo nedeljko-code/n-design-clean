@@ -24,7 +24,7 @@ export default function ServicesDesktop({
     <section
       id="services"
       ref={refProp}
-      className="relative w-full h-screen overflow-hidden flex"
+      className="relative w-full min-h-screen flex"
     >
       {/* LEFT SIDE */}
       <div className="relative w-[30%] bg-black flex items-center justify-center overflow-hidden">

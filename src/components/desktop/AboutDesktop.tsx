@@ -18,7 +18,7 @@ export default function AboutDesktop({ language, trigger, refProp }: Props) {
     <Section
       id="about"
       refProp={refProp}
-      trigger={trigger}
+      
       customLayout={true}
       leftContent={
         <div className="relative w-[30%] bg-black flex items-center justify-center overflow-hidden">
